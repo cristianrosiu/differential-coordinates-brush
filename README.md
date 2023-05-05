@@ -47,13 +47,13 @@ The following examples showcase the mesh deformation tool in action:
 
     | Ears scaled in all directions | Nose scaled along y-axis | Only one triangle scaled up |
     |:-----------------------------:|:------------------------:|:---------------------------:|
-    | ![Ears scaled in all directions](figures\rabbit-bigears.png) | ![Nose scaled along y-axis](figures\rabbit-longNose.png) | ![Only one triangle scaled up](figures\rabbit-onebigtriangle.png) |
+    | ![Ears scaled in all directions](./figures/rabbit-bigears.png) | ![Nose scaled along y-axis](./figures/rabbit-longNose.png) | ![Only one triangle scaled up](./figures/rabbit-onebigtriangle.png) |
 
 2. Cylinder mesh:
 
     | Original mesh | Blown up cylinder in the middle | Shrunk cylinder in the middle |
     |:-------------:|:------------------------------:|:-----------------------------:|
-    | ![Original mesh](figures\normalcylinder.png) | ![Blown up cylinder in the middle](figures\bigcylinder.png) | ![Shrunk cylinder in the middle](figures\shrinkcylinder.png) |
+    | ![Original mesh](./figures/normalcylinder.png) | ![Blown up cylinder in the middle](./figures/bigcylinder.png) | ![Shrunk cylinder in the middle](./figures/shrinkcylinder.png) |
 
 These examples demonstrate the tool's ability to handle scaling, rotation, and translation transformations.
     
