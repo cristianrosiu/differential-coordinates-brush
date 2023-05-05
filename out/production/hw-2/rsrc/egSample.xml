@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE eg-model SYSTEM "http://www.eg-models.de/rsrc/eg-model.dtd">
+<eg-model>
+	<meta generator="JavaView v.2.09"/>
+	<meta date="Thu Mar 08 00:10:21 GMT+01:00 2001"/>
+	<eg-id>assigned by administrator</eg-id>
+	<title>Random 2-Sphere</title>
+	<modelname>Random Sphere</modelname>
+	<authors>
+		<author>
+			<firstname>Konrad</firstname>
+			<lastname>Polthier</lastname>
+			<affiliation>
+				<organization>Freie Universität Berlin</organization>
+				<address>
+					<line>Arnimallee 6</line>
+					<line>14195 Berlin</line>
+					<line>Germany</line>
+				</address>
+			</affiliation>
+			<email>konrad.polthier@fu-berlin.de</email>
+			<url>http://www.polthier.info</url>
+		</author>
+	</authors>
+	<description>
+		<abstract>Triangulated 2-Sphere on 200 vertices.</abstract>
+		<detail>
+			<p>
+			This is a very <big>interesting</big> example, because it was not
+			known before that <tt>spheres</tt> can have as many as 200 vertices. <i>Spheres</i>
+			can be computed with <code>computers</code>.
+			</p>
+			<p>
+				Explanation of some <b>words</b>.
+				<dl>
+				   <dt>Sphere</dt>
+				   <dd>A round geometry with unique center.</dd>
+				   <dt>Vertex</dt>
+				   <dd>A round point on a sphere.</dd>
+				</dl>
+				These formulas are useless in the current context:
+				H<sub>2</sub>O and E = mc<sup>2</sup>.
+			</p>
+		</detail>
+		<msc2000>
+			<primary>52B11</primary>
+			<secondary>53Axx</secondary>
+			<secondary>53Bxx</secondary>
+		</msc2000>
+		<keywords>
+			<keyword>random polytope</keyword>
+			<keyword>nice manifold</keyword>
+			<keyword>sphere</keyword>
+			<keyword>triangulation</keyword>
+		</keywords>
+		<zentralblatt>665.00012</zentralblatt>
+		<software>JavaView v.2.09</software>
+		<references>
+			<refarticle num="1">
+				<refauthor>Erwin C. Grabowski</refauthor>
+				<reftitle>Spherical Blow-Up</reftitle>
+				<refjournal>Experimental Mathematics</refjournal>
+				<refpages>1--99</refpages>
+				<refyear>1999</refyear>
+				<refvolume>3</refvolume>
+				<refnumber>1</refnumber>
+			</refarticle>
+			<refbook num="2">
+				<refauthor>Erwin C. Grabowski</refauthor>
+				<refbooktitle>Numerics of Sphere Blow-Up</refbooktitle>
+				<refpublisher>TU Berlin</refpublisher>
+				<refyear>1999</refyear>
+			</refbook>
+			<refincollection num="3">
+				<refauthor>Erwin C. Grabowski</refauthor>
+				<reftitle>Spherical Blow-Up</reftitle>
+				<refbooktitle>Numerics of Sphere Blow-Up</refbooktitle>
+				<refeditor>Karl Edit</refeditor>
+				<refpublisher>TU Berlin</refpublisher>
+				<refpages>1--99</refpages>
+				<refyear>1999</refyear>
+			</refincollection>
+			<refmisc num="4">
+				<refauthor>Erwin C. Grabowski</refauthor>
+				<reftitle>Spherical Blow-Up</reftitle>
+				<refyear>1999</refyear>
+				<refnote>Preprint</refnote>
+			</refmisc>
+			<refurl num="5">
+				<refauthor>Erwin C. Grabowski</refauthor>
+				<reftitle>Home Page</reftitle>
+				<reflink>http://www.homepage.org/</reflink>
+			</refurl>
+		</references>
+	</description>
+	<files>
+		<file_master format="jvx">
+			<filename>RandomSphere_Master.jvx</filename>
+			<filesize>6377</filesize>
+		</file_master>
+		<file_preview format="gif">
+			<filename>RandomSphere_Preview.gif</filename>
+			<filesize>5001</filesize>
+			<imagewidth>240</imagewidth>
+			<imageheight>240</imageheight>
+		</file_preview>
+		<file_applet format="obj">
+			<filename>RandomSphere_Applet.obj</filename>
+			<filesize>5375</filesize>
+		</file_applet>
+		<file_other format="obj">
+			<filename>r3-200.obj</filename>
+			<filesize>4563</filesize>
+		</file_other>
+		<file_original format="poly">
+			<filename>RandomSphere_Original.poly</filename>
+			<filesize>3322</filesize>
+		</file_original>
+		<filecomment>240x240 preview</filecomment>
+	</files>
+</eg-model>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE jv-disp SYSTEM "http://www.javaview.de/rsrc/jv-disp.dtd">
+<jv-disp>
+	<meta generator="by hand"/>
+	<meta dtd="1.00.000"/>
+	<meta date="Sun Aug 11 19:09:40 GMT+01:00 2002"/>
+	<version type="beta">0.97</version>
+	<title>Development Version</title>
+   <authors>
+      <author>
+         <firstname>Emmett</firstname>
+         <lastname>Brown</lastname>
+         <affiliation>
+            <organization>Time Travel Labs</organization>
+            <address>
+               <line>parking lot</line>
+               <line>12345 Twin Pines Mall</line>
+            </address>
+         </affiliation>
+         <email>Brown@TimeTravelLabs.org</email>
+         <url>http://www.TimeTravelLabs.org</url>
+      </author>
+   </authors>
+	<description>
+		<abstract>Demonstration specification</abstract>
+	</description>
+	<displays>
+		<display name="Display Parameter from File"
+					autoRotate="hide" border="hide" cross="hide"
+					depthcue="hide" edgeAura="hide"
+					frame="show" info="hide" magnet="hide"
+					sorting="show" visible="show" xyGrid="hide">
+			<axes name="Axes" type="center" visible="show" dim="3" longHash="ffffff">
+				<ruler label="show" name="me" hashsNormal="show"/>
+				<ruler label="show" name="you" hashsUp="show"/>
+				<ruler label="show" name="her" hashsUp="show"/>
+			</axes>
+			<bndbox visible="show">
+				<color type="rgb">255 100 0</color>
+				<thickness>3.0</thickness>
+			</bndbox>
+			<cameras select="X-Z">
+				<camera name="Camera1" projection="Perspective">
+					<position>0.0 -0.5 1.0</position>
+					<interest>0.0 -0.5 0.0</interest>
+					<fieldOfView>0.0</fieldOfView>
+					<roll>0.0</roll>
+					<clipping enable="hide">
+						<near>10.0</near>
+						<far>-10.0</far>
+					</clipping>
+				</camera>
+				<camera projection="X-Z">
+					<position>0.0 -4.951514309296345 0.0</position>
+					<interest>0.0 0.5 0.0</interest>
+					<fieldOfView>0.0</fieldOfView>
+					<roll>0.0</roll>
+					<clipping enable="hide">
+						<near>10.0</near>
+						<far>-10.0</far>
+					</clipping>
+				</camera>
+				<camera name="Camera2" projection="X-Y">
+					<position>0.024233651315521663 0.3635047697328307 8.699880822272402</position>
+					<interest>0.024233651315521663 0.3635047697328307 0.0</interest>
+					<fieldOfView>0.0</fieldOfView>
+					<roll>0.0</roll>
+					<clipping enable="hide">
+						<near>10.0</near>
+						<far>-10.0</far>
+					</clipping>
+				</camera>
+			</cameras>
+			<lights lightingModel="Material" select="0">
+				<ambient>
+					<color type="rgb">50 50 50</color>
+				</ambient>
+				<light name="Light1" type="direction">
+					<position>1. 0. 1.</position>
+					<interest>0. 0. 0.</interest>
+					<color type="rgb">255 0 0</color>
+					<intensity>0.8</intensity>
+				</light>
+				<light name="Light2" type="direction">
+					<position>1. 1. 1.</position>
+					<interest>0. 0. 0.</interest>
+					<color type="rgb">0 255 0</color>
+					<intensity>0.8</intensity>
+				</light>
+				<light name="Light3" type="direction">
+					<position>0. 1. 1.</position>
+					<interest>0. 0. 0.</interest>
+					<color type="rgb">0 0 255</color>
+					<intensity>0.8</intensity>
+				</light>
+			</lights>
+			<transform mode="camera"/>
+			<background image="show">
+				<color type="rgb">192 192 192</color>
+				<image>
+					<url>images/JavaViewLogo.gif</url>
+				</image>
+			</background>
+			<foreground image="hide">
+				<color type="rgb">0 0 0</color>
+			</foreground>
+			<window>
+				<x>50</x>
+				<y>50</y>
+				<width>500</width>
+				<height>360</height>
+			</window>
+		</display>
+	</displays>
+</jv-disp>

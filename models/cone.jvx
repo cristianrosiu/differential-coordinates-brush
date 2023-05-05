@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE jvx-model SYSTEM "http://www.javaview.de/rsrc/jvx.dtd">
+<jvx-model>
+	<meta generator="JavaView v5.03.003"/>
+	<meta dtd="3.01"/>
+	<meta date="Sun May 29 23:29:59 CEST 2022"/>
+	<version type="dump">0.10</version>
+	<title>Cone</title>
+	<geometries>
+		<geometry name="Cone">
+			<pointSet point="hide" dim="3">
+				<points num="8">
+					<p>0.0 0.0 0.0</p>
+					<p>0.4663076581549986 0.0 1.0</p>
+					<p>0.0 0.0 0.0</p>
+					<p>-0.23315382907749918 0.40383427794145865 1.0</p>
+					<p>0.0 0.0 0.0</p>
+					<p>-0.23315382907749949 -0.4038342779414585 1.0</p>
+					<p>0.0 0.0 0.0</p>
+					<p>0.4663076581549986 -1.1421243619548344E-16 1.0</p>
+					<thickness>2.0</thickness>
+					<color type="rgb">255 0 0</color>
+					<colorTag type="rgb">255 0 255</colorTag>
+				</points>
+				<normals num="8">
+					<n>0.4869399398972251 0.8434047161365293 -0.2270638230356108</n>
+					<n>0.4869399398972251 0.8434047161365293 -0.2270638230356108</n>
+					<n>-0.4531538935183248 0.7848855672213959 -0.42261826174069933</n>
+					<n>-0.4531538935183248 0.7848855672213959 -0.42261826174069933</n>
+					<n>-0.4531538935183251 -0.7848855672213957 -0.4226182617406994</n>
+					<n>-0.4531538935183251 -0.7848855672213957 -0.4226182617406994</n>
+					<n>0.48693993989722484 -0.8434047161365296 -0.22706382303561076</n>
+					<n>0.48693993989722484 -0.8434047161365296 -0.22706382303561076</n>
+					<thickness>1.0</thickness>
+					<length>0.5</length>
+					<color type="rgb">255 255 0</color>
+				</normals>
+				<textures blend="material" num="8" dim="2">
+					<t>0.0 0.0</t>
+					<t>0.0 1.0</t>
+					<t>0.3333333333333333 0.0</t>
+					<t>0.3333333333333333 1.0</t>
+					<t>0.6666666666666666 0.0</t>
+					<t>0.6666666666666666 1.0</t>
+					<t>1.0 0.0</t>
+					<t>1.0 1.0</t>
+					<tiling>1 1</tiling>
+				</textures>
+			</pointSet>
+			<faceSet edge="show" face="show">
+				<faces num="3">
+					<f>0 2 3 1</f>
+					<f>2 4 5 3</f>
+					<f>4 6 7 5</f>
+					<color type="rgb">150 220 255</color>
+					<colorTag type="rgb">255 0 255</colorTag>
+					<creaseAngle>3.2</creaseAngle>
+				</faces>
+				<neighbours num="3">
+					<nb>1 -1 -1 -1</nb>
+					<nb>2 -1 0 -1</nb>
+					<nb>-1 -1 1 -1</nb>
+				</neighbours>
+				<edges>
+					<thickness>1.0</thickness>
+					<color type="rgb">0 0 0</color>
+					<colorTag type="rgb">255 0 255</colorTag>
+				</edges>
+				<normals num="3">
+					<n>0.4869399398972253 0.8434047161365295 -0.22706382303561087</n>
+					<n>-0.9738798797944502 3.6814180881522664E-16 -0.22706382303561085</n>
+					<n>0.48693993989722484 -0.8434047161365296 -0.22706382303561076</n>
+					<thickness>1.0</thickness>
+					<length>0.5</length>
+					<color type="rgb">255 255 0</color>
+				</normals>
+			</faceSet>
+			<bndbox visible="hide">
+				<p>-0.23315382907749949 -0.4038342779414585 0.0</p>
+				<p>0.4663076581549986 0.40383427794145865 1.0</p>
+			</bndbox>
+			<center visible="hide">
+				<p>0.0 0.0 0.0</p>
+			</center>
+		</geometry>
+	</geometries>
+</jvx-model>

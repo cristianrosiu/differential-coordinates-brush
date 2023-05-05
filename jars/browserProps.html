@@ -1,0 +1,86 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Browser Properties</title>
+<meta name="subject" content="Check Browser Properties">
+<meta name="Erstellt von" content="Konrad Polthier">
+</head>
+
+<body>
+<blockquote>
+
+<table border="0" width="90%">
+   <tr>
+      <td width="80%">
+         <p align="left">
+				<a href="help.html" target="_parent">Help&nbsp;</a>
+				<a href="shortcuts.html" target="_parent">Shortcuts&nbsp;</a>
+				<a href="copyright.html" target="_parent">Copyright&nbsp;</a>
+				<a href="contact.html" target="_parent">Contact&nbsp;</a>
+				<a href="requirements.html" target="_parent">Requirements&nbsp;</a>
+				<a href="browserProps.html" target="_parent">Browser&nbsp;</a>
+				<a href="systemFonts.html" target="_parent">Fonts&nbsp;</a>
+			</p></td>
+      <td width="20%">
+         <p align="right"><strong><em><font color="#004080">JavaView</font></em></strong></p></td>
+   </tr>
+</table>
+
+<h2>Check Bowser Properties</h2>
+
+	<p>If this browser supports JavaScript, the current page will display
+	browser properties to find hints in case of problems with Java applets.</p>
+	<p>     In case you encounter problems when starting any
+	of the JavaView applets, please, add the information on this page to
+	your <A href="contact.html">bug report</A>.</p>
+
+<script LANGUAGE="JavaScript">
+<!-- Parse Browser Properties and Display on Web Page
+var  mstr = "<BLOCKQUOTE>"
+mstr += "<H4>Properties of Current Browser</H2>"
+mstr += "<p>The following paragraph has been automatically created and should display"
+mstr += " information about the current browser and version number."
+mstr += "</p>"
+mstr += "<DL>"
+for (var i in navigator) {
+	mstr += "<DT>"+"navigator."+i+" = "+navigator[i]+"</DT>"
+}
+mstr += "<p>"
+	if (navigator.javaEnabled()) {
+		mstr += "<DT>"+"Java : Browser is Java enabled"+"</DT>"
+	} else {
+		mstr += "<DT>"+"Java : Browser is Java not enabled"+"</DT>"
+	}
+
+mstr += "</DL></BLOCKQUOTE>"
+
+document.open();
+document.write(unescape(mstr));
+document.close();
+// -->
+</script>
+<script LANGUAGE="JavaScript">
+<!-- Show Alert dialog if Java not enabled
+	if (navigator.javaEnabled()) {
+	} else {
+		alert("Browser is Java not enabled")
+	}
+// -->
+</script>
+
+</blockquote>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>  
+  <TR>
+    <TD>
+      <P align=center>
+		<NOBR><SMALL>&copy; 1999-2012&nbsp;Last modified: 27.10.2012&nbsp;---
+		<A href="http://www.javaview.de" target=_top>http://www.javaview.de</A> --- The JavaView Project</SMALL></NOBR> 
+		</P>
+	  </TD>
+	</TR>
+</TABLE>
+     
+</body>
+</html>

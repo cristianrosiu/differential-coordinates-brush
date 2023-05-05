@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE jv-rsrc SYSTEM "http://www.javaview.de/rsrc/jv-rsrc.dtd">
+<jv-rsrc>
+	<meta generator="JavaView v4.00.006"/>
+	<meta dtd="0.99.012"/>
+	<meta date="Thu Apr 23 17:17:11 CEST 2015"/>
+	<version type="beta">0.99.073</version>
+	<title>Sample Resource File</title>
+	<preferences>
+		<directory type="loaders"/>
+		<directory type="menu">menu</directory>
+		<display fastDisplay="enabled" instanceSharing="disabled"/>
+		<loader autoIdentify="enabled" autoNeighbour="enabled" autoNormals="enabled"/>
+		<workshop backup="enabled"/>
+	</preferences>
+</jv-rsrc>

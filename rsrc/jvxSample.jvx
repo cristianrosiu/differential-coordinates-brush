@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE jvx-model SYSTEM "http://www.javaview.de/rsrc/jvx.dtd">
+<jvx-model>
+   <meta generator="JavaView v.2.00"/>
+	<meta dtd="1.06.000"/>
+   <meta date="Thu Jan 18 00:10:21 GMT+01:00 2001"/>
+   <version type="final">2.00</version>
+   <title>deLoreon Surface</title>
+   <authors>
+      <author>
+         <firstname>Emmett</firstname>
+         <lastname>Brown</lastname>
+         <affiliation>
+            <organization>Time Travel Labs</organization>
+            <address>
+               <line>parking lot</line>
+               <line>12345 Twin Pines Mall</line>
+            </address>
+         </affiliation>
+         <email>Brown@TimeTravelLabs.org</email>
+         <url>http://www.TimeTravelLabs.org</url>
+      </author>
+   </authors>
+   <description>
+      <abstract>Very difficult 2.5 dimensional surface.</abstract>
+		<detail>
+		   The following parameters were used for generating the surface:
+			x = (3-v^2)*(x^2+y^2+z^2-v^2)^2;
+			r = 1.414214;
+			v = 1.100000;
+			y = [-1.530000,1.540000];
+		</detail>
+		<msc2000>
+			<primary>14J99</primary>
+			<secondary>14J17</secondary>
+			<secondary>32S25</secondary>
+		</msc2000>
+		<keywords>
+			<keyword>Difficult Surface</keyword>
+			<keyword>Flux Flow</keyword>
+		</keywords>
+		<software>Flux Modeling Package, version 2.0</software>
+   </description>
+   <geometries>
+      <geometry name="flux">
+         <pointSet dim="3" point="show" color="show">
+            <points>
+               <p>-0.7 0.  1.4</p>
+               <p>-0.4 0.  0.7</p>
+               <p>-0.1 0.  0. </p>
+               <p>-0.1 0. -0.7</p>
+               <p>-0.1 0. -1.4</p>
+               <p> 0.1 0. -1.4</p>
+               <p> 0.1 0. -0.7</p>
+               <p> 0.1 0.  0. </p>
+               <p> 0.4 0.  0.7</p>
+               <p> 0.7 0.  1.4</p>
+               <thickness>5</thickness>
+            </points>
+            <colors>
+               <c>255   0   0</c>
+               <c>255 127   0</c>
+               <c>255 255   0</c>
+               <c>127 255   0</c>
+               <c>  0 255   0</c>
+               <c>  0 255   0</c>
+               <c>  0 255 127</c>
+               <c>  0 255 255</c>
+               <c>127 255 255</c>
+               <c>255 255 255</c>
+            </colors>
+         </pointSet>
+         <vectorField name="forward flux" arrow="show" base="vertex">
+            <vectors>
+               <v>0.08 0. -0.18</v>
+               <v>0.08 0. -0.18</v>
+               <v>0.   0. -0.2 </v>
+               <v>0.   0. -0.2 </v>
+               <v>0.2  0.  0.  </v>
+               <v>0.   0.  0.2 </v>
+               <v>0.   0.  0.2 </v>
+               <v>0.08 0.  0.18</v>
+               <v>0.08 0.  0.18</v>
+               <v>0.08 0.  0.18</v>
+               <color>255 255 0</color>
+            </vectors>
+         </vectorField>
+         <vectorField name="backward flux" arrow="show" base="vertex">
+            <vectors>
+               <v>-0.08 0.  0.18</v>
+               <v>-0.08 0.  0.18</v>
+               <v>-0.08 0.  0.18</v>
+               <v> 0.   0.  0.2 </v>
+               <v> 0.   0.  0.2 </v>
+               <v>-0.2  0.  0.  </v>
+               <v> 0.   0. -0.2 </v>
+               <v> 0.   0. -0.2 </v>
+               <v>-0.08 0. -0.18</v>
+               <v>-0.08 0. -0.18</v>
+               <color>255 0 255</color>
+            </vectors>
+         </vectorField>
+      </geometry>
+      <geometry name="case">
+         <pointSet dim="3" point="hide">
+            <points>
+               <p>-0.8 -.2 -2.</p>
+               <p> 0.8 -.2 -2.</p>
+               <p> 0.8  .2 -2.</p>
+               <p>-0.8  .2 -2.</p>
+               <p>-1.  -.2  2.</p>
+               <p> 1.  -.2  2.</p>
+               <p> 1.   .2  2.</p>
+               <p>-1.   .2  2.</p>
+            </points>
+         </pointSet>
+         <lineSet line="show">
+            <lines>
+               <l>0 1</l>
+               <l>1 2</l>
+               <l>2 3</l>
+               <l>3 0</l>
+               <l>0 4</l>
+               <l>1 5</l>
+               <l>2 6</l>
+               <l>3 7</l>
+               <l>4 5</l>
+               <l>5 6</l>
+               <l>6 7</l>
+               <l>7 4</l>
+               <color>255 255 0</color>
+            </lines>
+         </lineSet>
+      </geometry>
+      <geometry name="backplate">
+         <pointSet dim="3" point="hide">
+            <points>
+               <p>-1.5 1.0 -2.5</p>
+               <p> 1.5 1.0 -2.5</p>
+               <p> 1.5 1.2 -2.5</p>
+               <p>-1.5 1.2 -2.5</p>
+               <p>-1.5 1.0  2.5</p>
+               <p> 1.5 1.0  2.5</p>
+               <p> 1.5 1.2  2.5</p>
+               <p>-1.5 1.2  2.5</p>
+            </points>
+         </pointSet>
+         <faceSet face="show" edge="hide">
+            <faces>
+               <f>3 2 1 0</f>
+               <f>4 5 6 7</f>
+               <f>0 1 5 4</f>
+               <f>2 3 7 6</f>
+               <f>0 4 7 3</f>
+               <f>1 2 6 5</f>
+               <color>63 63 255</color>
+            </faces>
+         </faceSet>
+      </geometry>
+   </geometries>
+</jvx-model>

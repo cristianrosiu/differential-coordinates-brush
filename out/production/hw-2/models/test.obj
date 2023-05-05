@@ -1,0 +1,28 @@
+# Produced with JavaView v.5.03.003
+# JavaView is © 1997-2020, www.javaview.de
+# by Konrad Polthier, Ulrich Reitebuch, Sunil K. Yadav, Eric Zimmermann
+#     File Format = Wavefront OBJ
+#     Geometry    = test
+#     Date        = Mon Jun 06 21:53:03 CEST 2022
+#
+#     Number of Vertices = 4
+#     Number of Elements = 2
+#     Additional: Vertex Normals
+#
+# End of Header
+# Vertex List
+# Number of Vertexs = 4
+v 1.0 1.0 1.0
+v -1.0 1.0 -1.0
+v -1.0 -1.0 1.0
+v 1.0 -1.0 -1.0
+# Vertex Normal List
+# Number of Vertex Normals = 4
+vn 0.57735026 0.57735026 0.57735026
+vn -0.57735026 0.57735026 -0.57735026
+vn -0.57735026 -0.57735026 0.57735026
+vn 0.57735026 -0.57735026 -0.57735026
+# Face List
+# Number of Faces = 2
+f  1//1 4//4 2//2
+f  2//2 4//4 3//3

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE eg-model SYSTEM "http://www.eg-models.de/rsrc/eg-model.dtd">
+<eg-model>
+	<meta generator="JavaView v.2.04"/>
+	<meta date="Thu Jan 18 00:10:21 GMT+01:00 2001"/>
+	<eg-id>assigned by administrator</eg-id>
+	<title></title>
+	<modelname></modelname>
+	<authors>
+		<author>
+			<firstname></firstname>
+			<lastname></lastname>
+			<affiliation>
+				<organization></organization>
+				<address>
+					<line></line>
+					<line></line>
+					<line></line>
+				</address>
+			</affiliation>
+			<email></email>
+			<url></url>
+		</author>
+	</authors>
+	<description>
+		<abstract></abstract>
+		<detail>
+			<p></p>
+		</detail>
+		<msc2000>
+			<primary></primary>
+			<secondary></secondary>
+			<secondary></secondary>
+		</msc2000>
+		<keywords>
+			<keyword></keyword>
+			<keyword></keyword>
+		</keywords>
+		<zentralblatt></zentralblatt>
+		<software></software>
+		<references>
+			<refarticle num="1">
+				<refauthor></refauthor>
+				<reftitle></reftitle>
+				<refjournal></refjournal>
+				<refpages></refpages>
+				<refyear></refyear>
+				<refvolume></refvolume>
+				<refnumber></refnumber>
+			</refarticle>
+			<refbook num="2">
+				<refauthor></refauthor>
+				<refbooktitle></refbooktitle>
+				<refpublisher></refpublisher>
+				<refyear></refyear>
+			</refbook>
+			<refincollection num="3">
+				<refauthor></refauthor>
+				<reftitle></reftitle>
+				<refbooktitle></refbooktitle>
+				<refeditor></refeditor>
+				<refpublisher></refpublisher>
+				<refpages></refpages>
+				<refyear></refyear>
+			</refincollection>
+			<refmisc num="4">
+				<refauthor></refauthor>
+				<reftitle></reftitle>
+				<refyear></refyear>
+				<refnote></refnote>
+			</refmisc>
+			<refurl num="5">
+				<refauthor></refauthor>
+				<reftitle>Home Page</reftitle>
+				<reflink>http://www.somewhere.org/</reflink>
+			</refurl>
+		</references>
+	</description>
+	<files>
+		<file_master format="jvx">
+			<filename></filename>
+			<filesize></filesize>
+		</file_master>
+		<file_preview format="gif">
+			<filename></filename>
+			<filesize></filesize>
+			<imagewidth></imagewidth>
+			<imageheight></imageheight>
+		</file_preview>
+		<file_applet format="obj">
+			<filename></filename>
+			<filesize></filesize>
+		</file_applet>
+		<file_other format="obj">
+			<filename></filename>
+			<filesize></filesize>
+		</file_other>
+		<file_readme format="txt">
+			<filename></filename>
+			<filesize></filesize>
+		</file_readme>
+		<filecomment></filecomment>
+	</files>
+</eg-model>
