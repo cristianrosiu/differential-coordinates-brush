@@ -1,17 +1,19 @@
 # Mesh Deformation Tool
 
-This project provides a mesh deformation tool for 3D models, implemented in Java. It allows users to apply various geometric transformations (scaling, rotation, translation) to a selected portion of a mesh, while maintaining the mesh's continuity.
+This project provides a mesh deformation tool for 3D models, implemented in C++. It allows users to apply various geometric transformations (scaling, rotation, translation) to a selected portion of a mesh, while maintaining the mesh's continuity.
 
 ## Table of Contents
 
-1. [Features](#features)
-2. [Implementation](#implementation)
-    1. [Differential Coordinates](#differential-coordinates)
-    2. [Shape Editing using Differential Coordinates](#shape-editing-using-differential-coordinates)
-3. [Usage](#usage)
-4. [Tests](#tests)
-5. [Examples](#examples)
-6. [Discussion](#discussion)
+- [Mesh Deformation Tool](#mesh-deformation-tool)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Implementation](#implementation)
+    - [Differential Coordinates](#differential-coordinates)
+    - [Shape Editing using Differential Coordinates](#shape-editing-using-differential-coordinates)
+  - [Usage](#usage)
+  - [Tests](#tests)
+  - [Examples](#examples)
+  - [Discussion](#discussion)
 
 ## Features
 
@@ -39,8 +41,22 @@ Unit tests have been created to verify the results of the implemented methods wi
 
 ## Examples
 
-Some examples of the mesh deformation tool in action can be found in the report, showcasing experiments on a rabbit head mesh and a cylinder mesh. The tool performs well on all input matrices, including scaling, rotation, and translation.
+The following examples showcase the mesh deformation tool in action:
 
+1. Rabbit head mesh:
+
+    | Ears scaled in all directions | Nose scaled along y-axis | Only one triangle scaled up |
+    |:-----------------------------:|:------------------------:|:---------------------------:|
+    | ![Ears scaled in all directions](figures\rabbit-bigears.png) | ![Nose scaled along y-axis](figures\rabbit-longNose.png) | ![Only one triangle scaled up](figures\rabbit-onebigtriangle.png) |
+
+2. Cylinder mesh:
+
+    | Original mesh | Blown up cylinder in the middle | Shrunk cylinder in the middle |
+    |:-------------:|:------------------------------:|:-----------------------------:|
+    | ![Original mesh](figures\normalcylinder.png) | ![Blown up cylinder in the middle](figures\bigcylinder.png) | ![Shrunk cylinder in the middle](figures\shrinkcylinder.png) |
+
+These examples demonstrate the tool's ability to handle scaling, rotation, and translation transformations.
+    
 ## Discussion
 
 The Geometric Laplace coordinates method was chosen for this project due to its ability to account for irregularities in the triangles' neighborhood. However, the current implementation is quite slow, taking over 10 minutes to calculate for a mesh with more than 40,000 triangles. With more time, the code could be optimized, and approximation algorithms could be used to speed up computation for larger meshes.
